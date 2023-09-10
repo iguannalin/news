@@ -28,4 +28,5 @@ div#container {
   margin-top: 15vh;
   font-family: sans-serif, helvetica;
   font-size: 16px;
+  text-transform: lowercase;
 }
