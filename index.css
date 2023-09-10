@@ -14,18 +14,20 @@ html {
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-flow: column;
+  height: 80vh;
+  margin-top: 15vh;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   text-shadow: var(--shadow-color) -2px 2px 8px;
 }
 
 div#container {
-  width: 40ch;
+  margin-left: 30px;
+  width: 30ch;
   line-height: 30px;
-  margin-top: 15vh;
   font-family: sans-serif, helvetica;
   font-size: 16px;
   text-transform: lowercase;
